@@ -1,7 +1,12 @@
-def create_excel(category):
+import pandas as pd
 
-    category.to_excel(
-        "expense_report.xlsx"
-    )
+data = {
+    "Category": ["Food", "Travel", "Shopping"],
+    "Amount": [500, 200, 1200]
+}
 
-    print("Excel report created!")
+category = pd.DataFrame(data)
+
+category.to_excel("expense_report.xlsx", index=False)
+
+print("Excel report created!")

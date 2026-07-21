@@ -17,13 +17,17 @@ def monthly_chart(data):
         marker="o"
     )
 
-    plt.title("Monthly Expense Trend")
+    plt.title("linegraph")
+    
 
     plt.xlabel("Month")
     plt.ylabel("Amount")
 
-    plt.savefig("expense_trend.png")
+    plt.grid(True)
+
+    plt.savefig("linegraph.png", dpi=300)
 
     plt.close()
+
 
     print("Trend chart created!")

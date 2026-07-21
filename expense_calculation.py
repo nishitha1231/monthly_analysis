@@ -1,12 +1,22 @@
-def expense_details(data):
+date = ["2026-01-01", "2026-01-02", "2026-01-03"]
 
-    total = data["Amount"].sum()
-    average = data["Amount"].mean()
-    highest = data["Amount"].max()
-    lowest = data["Amount"].min()
+category = ["Food", "Travel", "Shopping"]
 
-    print("Total Expense:", total)
-    print("Average Expense:", average)
-    print("Highest Expense:", highest)
-    print("Lowest Expense:", lowest)
-    
+amount = [500, 200, 1200]
+
+description = ["Lunch", "Auto", "Clothes"]
+
+
+total = sum(amount)
+
+average = total / len(amount)
+
+highest = max(amount)
+
+lowest = min(amount)
+
+
+print("Total Expense:", total)
+print("Average Expense:", average)
+print("Highest Expense:", highest)
+print("Lowest Expense:", lowest)
