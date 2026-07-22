@@ -1,4 +1,11 @@
 Date,Category,Amount,Description
-2026-01-01,Food,500,Lunch
-2026-01-02,Travel,200,Auto
-2026-01-03,Shopping,1200,Clothes
+2026-01-01,Food,250,Breakfast
+2026-01-03,Travel,180,Bus Fare
+2026-01-05,Shopping,1500,Clothes
+2026-01-08,Bills,1200,Electricity Bill
+2026-01-10,Entertainment,600,Movie Ticket
+2026-01-13,Healthcare,850,Medicines
+2026-01-16,Food,450,Dinner
+2026-01-20,Travel,320,Cab Fare
+2026-01-24,Shopping,900,Groceries
+2026-01-29,Bills,2000,House Rent

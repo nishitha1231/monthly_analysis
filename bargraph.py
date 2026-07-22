@@ -1,25 +1,12 @@
 import matplotlib.pyplot as plt
-
-category = {
-    "Food": 500,
-    "Travel": 200,
-    "Shopping": 1200
-}
-
-names = list(category.keys())
-amounts = list(category.values())
-
-plt.bar(names, amounts)
-
+category = ["Food", "Travel", "Shopping", "Bills", "Entertainment","Healthcare", "Food", "Travel", "Shopping", "Bills"]
+amount = [500, 300, 1200, 800, 600, 1500, 450, 700, 900, 1000]
+plt.bar(category, amount)
 plt.title("Category Wise Expenses")
 plt.xlabel("Category")
 plt.ylabel("Amount")
-
+plt.xticks(rotation=30)
 plt.tight_layout()
-
 plt.savefig("bargraph.png", dpi=300)
-
 plt.show()
-
-
-print("Bar graph created!")
+print("Bar graph created successfully!")

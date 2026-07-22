@@ -1,23 +1,23 @@
-# Monthly Expenses Data Analysis Project
+# Monthly Expense Tracker
 
 ## Description
-A Python data analysis project that analyzes monthly expenses using pandas, numpy, and matplotlib.
+A Python project to analyze monthly expenses and generate reports.
 
 ## Technologies Used
-
-- Python 3
+- Python
 - Pandas
-- NumPy
 - Matplotlib
 - Excel
 
-## Project Features
-
+## Features
 - Read expense data from CSV
-- Calculate total expenses
-- Category-wise expense analysis
-- Find highest spending category
-- Generate expense charts
-- Export reports to Excel
+- Calculate total, average, highest and lowest expenses
+- Generate Excel report
+- Create bar chart, pie chart and line graph
 
-## Project Structure
+## How to Run
+
+Activate virtual environment:
+
+```bash
+source venv/bin/activate
